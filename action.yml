@@ -22,9 +22,6 @@ inputs:
   SNOWFLAKE_SCHEMA:
     description: 'Snowflake Schema'
     required: true
-  ENV_NAME:
-    description: 'Environment Name'
-    required: true
 runs:
   using: 'composite'
   steps:
